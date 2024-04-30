@@ -1,7 +1,7 @@
 {
     "url": "##APP_ORIGIN",
     "secret": "##SECRET",
-
+"showNestedReplies": "false",
     "database": "mongo",
     "mongo": {
         "host": "##MONGODB_HOST",
