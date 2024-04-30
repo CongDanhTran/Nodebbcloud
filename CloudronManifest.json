@@ -1,0 +1,39 @@
+{
+  "id": "org.nodebb.cloudronapp",
+  "title": "NodeBB",
+  "author": "NodeBB Team",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Next generation forum software",
+  "version": "2.8.4",
+  "upstreamVersion": "3.7.4",
+  "healthCheckPath": "/",
+  "httpPort": 4567,
+  "addons": {
+    "localstorage": {},
+    "mongodb": {},
+    "sendmail": {
+      "supportsDisplayName": true,
+      "optional": true
+    }
+  },
+  "manifestVersion": 2,
+  "website": "https://nodebb.org/",
+  "contactEmail": "support@cloudron.io",
+  "icon": "logo.png",
+  "runtimeDirs": [
+    "/app/code/node_modules",
+    "/app/code/build"
+  ],
+  "mediaLinks": [
+    "https://screenshots.cloudron.io/org.nodebb.cloudronapp/1.png",
+    "https://screenshots.cloudron.io/org.nodebb.cloudronapp/2.png",
+    "https://screenshots.cloudron.io/org.nodebb.cloudronapp/3.png"
+  ],
+  "memoryLimit": 1073741824,
+  "changelog": "file://CHANGELOG.md",
+  "tags": [ "forum", "collaboration", "community", "discourse", "bb", "phpbb", "vanilla" ],
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "minBoxVersion": "7.6.0",
+  "forumUrl": "https://forum.cloudron.io/category/18/nodebb",
+  "documentationUrl": "https://docs.cloudron.io/apps/nodebb/"
+}
